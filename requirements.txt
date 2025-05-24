@@ -9,4 +9,13 @@ pydantic==1.10.7
 pytest==7.3.1
 pytest-asyncio==0.21.0
 httpx==0.24.0
-torch==1.13.1 
+torch==2.0.0
+torchaudio==2.0.0
+nemo_toolkit[asr]==1.17.0
+omegaconf==2.2.3
+hydra-core==1.2.0
+soundfile>=0.10.3
+pyyaml<6.0
+setuptools>=65.5.1 # Required for nemo compatibility
+psutil==5.9.5 # For memory monitoring
+prometheus-client==0.17.1 # For metrics collection 
