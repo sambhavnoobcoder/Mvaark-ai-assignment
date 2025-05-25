@@ -38,4 +38,6 @@ models/
 
 # Misc
 .DS_Store
-Thumbs.db 
+Thumbs.db .history/
+nemo_env/
+Mvaark-ai-assignment/
